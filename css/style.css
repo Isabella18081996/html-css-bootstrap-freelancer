@@ -1,7 +1,29 @@
+/* MENU FIX */
+.menu-fix{
+  background-color: pink;
+  height: 100px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.titolo-menu{
+  height: 50px;
+  background-color: plum;
+}
+
+.bottone-menu{
+  height: 50px;
+  background-color: plum;
+}
+
 /* HEADER */
 
 header{
   background-color: #1ABC9C;
+  margin-top: 100px;
 }
 
 .omino{
@@ -166,6 +188,45 @@ section{
 .message-contact{
   height: 50px;
   background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.footer-top{
+  background-color: #3A546D ;
+
+}
+
+.footer-bottom{
+  background-color: #2C3E50;
+}
+
+.sezione1{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sezione2{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sezione3{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.copyright{
+  height: 50px;
+  background-color: red;
   margin-top: 10px;
   margin-bottom: 10px;
 }
