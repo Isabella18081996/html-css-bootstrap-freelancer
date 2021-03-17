@@ -1,0 +1,99 @@
+/* HEADER */
+
+header{
+  background-color: #1ABC9C;
+}
+
+.omino{
+  margin-top:30px;
+}
+
+.img{
+  background-color: #2C3E50;
+  height: 200px;
+  border-radius: 50%;
+  width: 200px;
+  margin: auto;
+}
+
+.titolo-header{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+}
+
+.p-header{
+  height: 50px;
+  background-color: #2C3E50;
+}
+
+.stella-header{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.titolo-main{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.stella-main{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* IMMAGINI MAIN */
+
+.img-main{
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.one-photo{
+  background-color: #BA4D63;
+}
+
+.second-photo{
+  background-color: #1FA4B6;
+}
+
+.third-photo{
+  background-color: #140F0F;
+}
+
+.four-photo{
+  background-color: #1C83C1;
+}
+
+.fifth-photo{
+  background-color: #1137B5;
+}
+
+.sixth-photo{
+  background-color: #CCB2A3;
+}
+
+/* /IMMAGINI MAIN */
+
+/* ABOUT */
+
+.about{
+  background-color: #1ABC9C;
+}
+
+
+/* /ABOUT */
