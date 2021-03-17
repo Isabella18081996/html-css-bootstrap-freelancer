@@ -91,9 +91,81 @@ header{
 
 /* ABOUT */
 
-.about{
+section{
   background-color: #1ABC9C;
 }
 
+.titolo-about{  
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.stella-about{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.p-about{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button-about{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 /* /ABOUT */
+
+/* CONTACT */
+.titolo-contact{  
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.stella-contact{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.name-contact{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.email-contact{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.phone-contact{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.message-contact{
+  height: 50px;
+  background-color: #2C3E50;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
