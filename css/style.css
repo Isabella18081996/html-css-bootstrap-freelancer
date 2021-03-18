@@ -1,23 +1,54 @@
+/* GLOBAL */
+
+.in-padding-80{
+  padding:80px 0;
+}
+
+.in-padding-60{
+  padding:60px 0;
+}
+
+.in-padding-30{
+  padding: 30px 0;
+}
+
+.in-padding-15{
+  padding: 15px 0;
+}
+
+.in-margin-bottom-20{
+  margin-bottom: 20px;
+}
+
+.in-wrapper-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
 /* MENU FIX */
 .menu-fix{
-  background-color: pink;
-  height: 50px;
+  background-color: #2C3E50;
   position: fixed;
   z-index: 999;
   top: 0;
   left: 0;
   right: 0;
+  color: white;
 }
 
-.titolo-menu{
-  height: 50px;
-  background-color: plum;
+.menu-fix ul{
+  list-style: none;
 }
 
-/* .bottone-menu{
-  height: 50px;
-  background-color: plum;
-} */
+.menu-fix ul li{
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-fix ul li a{
+  color: white;
+}
 
 /* HEADER */
 
@@ -33,31 +64,28 @@ header{
   margin: 0 auto;
 }
 
-.omino{
-  margin-top:30px;
-}
 
-.img{
-  height: 200px;
-  border-radius: 50%;
+
+header .in-jumbotron img{
   width: 200px;
-  margin: auto;
 }
 
 .titolo-header{
   height: 50px;
-  margin-top: 10px;
+  margin-top: 20px;
   color: white;
+  text-transform: uppercase;
 }
 
 .p-header{
   height: 150%;
   color: white;
+  margin-bottom: 20px;
   
 }
 
 .stella-header{
-  height: 50px;
+  height: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
   color: white;
@@ -66,154 +94,87 @@ header{
 
 .riga{
   display: inline-block;
-  border-bottom: 1px solid white;
+  border-bottom: 3px solid white;
   width: 100px;
   margin-bottom: 5px;
 }
 
-/* .glyphicon .glyphicon-star{
+.glyphicon-star{
   color: white;
-} */
+  font-size: 17px;
+}
+
+header span{
+  font-size: 20px;
+}
+
+
+
+.glyphicon-menu-hamburger{
+  padding: 10px;
+  font-size: 20px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 20px;
+
+}
 
 /* /HEADER */
 
 /* MAIN */
 
-.titolo-main{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+#portfolio{
+  background-color: white;
 }
 
-.stella-main{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.riga-main{
+  display: inline-block;
+  border-bottom: 3px solid #2C3E50;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.stella-main .glyphicon-star{
+  color: #2C3E50;
 }
 
 
 /* IMMAGINI MAIN */
 
-.img-main{
+#portfolio img{
   border-radius: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.one-photo{
-  background-color: #BA4D63;
-}
-
-.second-photo{
-  background-color: #1FA4B6;
-}
-
-.third-photo{
-  background-color: #140F0F;
-}
-
-.four-photo{
-  background-color: #1C83C1;
-}
-
-.fifth-photo{
-  background-color: #1137B5;
-}
-
-.sixth-photo{
-  background-color: #CCB2A3;
 }
 
 /* /IMMAGINI MAIN */
 
 /* ABOUT */
 
-section{
+#about{
   background-color: #1ABC9C;
 }
 
-.titolo-about{  
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
+#about p{
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.stella-about{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.p-about{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.button-about{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
+#about button{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* /ABOUT */
 
 /* CONTACT */
-.titolo-contact{  
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
 
-}
-
-.stella-contact{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.name-contact{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.email-contact{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.phone-contact{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.message-contact{
-  height: 50px;
-  background-color: #2C3E50;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
 /* FOOTER */
 
-.footer-top{
+/* .footer-top{
   background-color: #3A546D ;
 
 }
@@ -248,4 +209,68 @@ section{
   background-color: red;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+ */
+
+
+.border-form.form-control{
+  border:none;
+  box-shadow: none;
+}
+
+.div-form.form-group{
+  border-bottom: 1px solid gray;
+}
+
+.br-form.border-form.form-control{
+border-bottom: 1px solid gray;
+}
+
+.btn-green.btn-default.btn{
+  background-color: #1ABC9C;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+}
+
+
+
+/* FOOTER */
+
+footer .row{
+  width: 100%;
+}
+
+.in-footer-top{
+  background-color: #3A546D;
+  color: white;
+}
+.in-footer-bottom{
+  background-color:#2C3E50;
+  color: white;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+ul li{
+  display: inline;
+}
+
+ul li i{
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+footer p{
+  font-size: 20px;
+}
+
+footer p span{
+  color: #1ABC9C;
 }
