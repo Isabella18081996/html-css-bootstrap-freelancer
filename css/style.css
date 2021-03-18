@@ -1,7 +1,7 @@
 /* MENU FIX */
 .menu-fix{
   background-color: pink;
-  height: 100px;
+  height: 50px;
   position: fixed;
   z-index: 999;
   top: 0;
@@ -14,16 +14,23 @@
   background-color: plum;
 }
 
-.bottone-menu{
+/* .bottone-menu{
   height: 50px;
   background-color: plum;
-}
+} */
 
 /* HEADER */
 
 header{
   background-color: #1ABC9C;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+
+.in-jumbotron{
+  width: 80%;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 .omino{
@@ -31,7 +38,6 @@ header{
 }
 
 .img{
-  background-color: #2C3E50;
   height: 200px;
   border-radius: 50%;
   width: 200px;
@@ -40,21 +46,34 @@ header{
 
 .titolo-header{
   height: 50px;
-  background-color: #2C3E50;
   margin-top: 10px;
+  color: white;
 }
 
 .p-header{
-  height: 50px;
-  background-color: #2C3E50;
+  height: 150%;
+  color: white;
+  
 }
 
 .stella-header{
   height: 50px;
-  background-color: #2C3E50;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: white;
+  text-align: center;
 }
+
+.riga{
+  display: inline-block;
+  border-bottom: 1px solid white;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+/* .glyphicon .glyphicon-star{
+  color: white;
+} */
 
 /* /HEADER */
 
